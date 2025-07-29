@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/ac8f898227.js" crossorigin="anonymous"></script>
+    <title>Portafolio - Eduardo Crespin</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">Portafolio</a>
+        <!-- menu icon -->
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Quien Soy</a>
+            <a href="#learn">Conocimientos</a>
+            <a href="#study">Estudios</a>
+            <a href="#proyects">Poyectos</a>
+            <a href="#contact">Contactos</a>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hola, Mucho Gusto</h3>
+            <h1>Eduardo Crespin</h1>
+            <h3>Soy <span class="multiple-text"></span></h3>
+            <p>Estudiante universitario de la carrera de Ingenieria en Sistemas y Computacion en la universidad
+                Pedagogica de El Salvador,
+                actualmente ultimo ciclo
+                de estudios.
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/eduardo-crespin-b78980253/?trk=public-profile-join-page" class="likendin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/crespineduardo290420" class="githud"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <!-- CV -->
+            <a href="./CV/Currículum Vitae.pdf" download="CV" class="btn">Descargar CV</a>
+        </div>
+
+        <!-- home-img -->
+        <div class="home-img">
+            <img src="./img/img1.png" alt="" class="home-img-circle">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/img2.png" alt="" class="about-img-circle">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Quien <span>Soy</span></h2>
+            <h3>Estudiante de Ingenieria en Sistemas y Computacion!</h3>
+            <p>Poseo la capacidad de rapido aprendizaje y mostrar entusiamo a la hora de trabajar,
+                cuento con conocimientos basicos en desarrollo web full stack junior, manejo de base de datos y
+                conocimientos en tecnologias como HTML, CSS, JavaScript, Tailwing, Boostrap, PHP, MySQL,
+                React, entre otros. Listo para seguir aprendiendo y creciendo en el campo de la tecnologia.
+            </p>
+            <a href="https://www.linkedin.com/in/eduardo-crespin-b78980253/?trk=public-profile-join-page" class="btn">Ver Mas</a>
+        </div>
+    </section>
+
+    <!-- conocimientos -->
+    <section class="learn" id="learn">
+        <h2 class="heading">Mis <span>Conocimientos</span></h2>
+        <div class="learn-container">
+            <div class="learn-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Full Stack Developer</h3>
+                <p>Conocimientos basicos de desarrollo web, usando tecnologias como React, HTML, CSS, 
+                    JavaScript y otros,
+                    con capacidad de rapido aprendizaje.
+                </p>
+            </div>
+
+            <div class="learn-box">
+                <i class="fa-solid fa-language"></i>
+                <h3>Ingles Intermedio</h3>
+                <p>Poseo conocimiento del idioma ingles a nivel intermedio, el cual lo aprendi en clases en academia
+                    particular y
+                    clases impartidas de la carrera universitaria.
+                </p>
+            </div>
+
+            <div class="learn-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Analisis de Datos</h3>
+                <p>Tengo conocmientos a nivel basico, en herramientas digitales como Power BI, Azure, Power Apps,
+                    MYSQL Workbeach, SQL server management Studio.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- estudios -->
+      <section class="study" id="study">
+        <h2 class="heading">Mis <span>Estudios</span></h2>
+        <div class="study-container">
+            <div class="study-box">
+                <i class="fa-solid fa-school"></i>
+                <h3>Ingenieria en Sistemas</h3>
+                <p>Estudiante universitario de la carrera de ingenieria en sistemas, ultimo ciclo
+                    y espero empezar una jornada laboral en el mundo de la tecnologia.
+                </p>
+            </div>
+
+            <div class="study-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Full Stack Junior</h3>
+                <p>Realice un bootcamp especializado en full stack junior en la academia Kodigo, donde aprendi lo basico
+                    en desarrollo web, tanto en el front-end y back-end.
+                </p>
+            </div>
+
+            <div class="study-box">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Desarrollador FrontEnd</h3>
+                <p>Hice un curso intensivo sobre desarrollo FrontEnd en el instituto Tecnico EXSAL, donde 
+                    arendi las bases de maquetacion de sitios web.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion de proyectos -->
+    <section class="proyects" id="proyects">
+        <h2 class="heading">Proyectos <span>Realizados</span></h2>
+        <div class="proyects-container">
+            <div class="proyects-box">
+                <img src="img/proyect1.png" alt="">
+                <div class="pryects-layer">
+                    <h4>Clon de Spotify</h4>
+                    <p>Realizacion de una copia de la aplicacion de Spotify, usando React y Tailwing para su diseño
+                        adaptable a cualquier pantalla, puedes ver el diseño por medio del link.
+                    </p>
+                    <a href="https://kodigo-musicapp.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="proyects-box">
+                <img src="img/proyect2.png" alt="">
+                <div class="pryects-layer">
+                    <h4>Dashboar Ejecutivo</h4>
+                    <p>Realizacion de un dashboard ejecutivo, realizando secciones con diferente informacion, realizado con React y 
+                        Tailwing CSS, puedes ver el diseño por medio del link.
+                    </p>
+                    <a href="https://meek-rolypoly-d8e863.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="proyects-box">
+                <img src="img/proyect3.png" alt="">
+                <div class="pryects-layer">
+                    <h4>Sitio Web</h4>
+                    <p>Creacion de un sitio web para un restaurante donde se puede ver menu, platillos y reservaciones, hecho con
+                        HTML, CSS y JavaScript, puedes ver el diseño por medio del link.
+                    </p>
+                    <a href="https://grill-restauranthtml.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="proyects-box">
+                <img src="img/proyect4.png" alt="">
+                <div class="pryects-layer">
+                    <h4>Landing Page</h4>
+                    <p>Realizacion de una landing page sobre marketing, usando React y Tailwing CSS para darle un diseño
+                        amigable, puedes ver el diseño por medio del link.
+                    </p>
+                    <a href="https://astounding-otter-2bed30.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="proyects-box">
+                <img src="img/proyect5.png" alt="">
+                <div class="pryects-layer">
+                    <h4>Dashboard e-commerce</h4>
+                    <p>Realizacion de un dashboard para un sitio de e-commerce, donde se puede ver los productos en venta, hecho con React y 
+                        Tailwing CSS, puedes ver el diseño por medio del link.
+                    </p>
+                    <a href="https://frabjous-macaron-60af3a.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="proyects-box">
+                <img src="img/proyect6.png" alt="">
+                <div class="pryects-layer">
+                    <h4>Tienda en Linea</h4>
+                    <p>Ejemplo de una tienda en linea, donde se puede ver los productos en venta, hecho con HTML, CSS y JavaScript, 
+                        puedes ver el diseño por medio del link.
+                    </p>
+                    <a href="https://cgeguizabal.github.io/Anbernic/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contacto -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contactame <span>Aqui</span></h2>
+
+        <form action="https://formspree.io/f/xgvzybed" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre Completo" name="name" required>
+                <input type="email" placeholder="Correo Electronico" name="email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Numero de Telefono" name="number" required>
+                <input type="text" placeholder="Asunto" name="subject" required>
+            </div>
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Mensaje Aqui"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 | Derechos Reservados.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+
+    </footer>
+
+    <!-- typed js - reescribe el texto -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!-- scrollreveal link -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- script js -->
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
